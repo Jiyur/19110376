@@ -1,0 +1,13 @@
+<html lang="en">
+<body>
+    <ul>
+        <% if (mygroup.length > 0) { %>
+            <% mygroup.forEach(student => { %>
+              <li>
+                <%= student.name %>
+              </li>
+            <% }) %>
+          <% } %>
+    </ul>
+</body>
+</html>
